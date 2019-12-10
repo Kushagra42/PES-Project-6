@@ -8,7 +8,7 @@ static void Sine_Wave_Callback(TimerHandle_t xTimer)
 {
 
 	 PRINTF("\n IN SINE WAVE CALL BACK FUNC");
-	 Log_String("IN SINE WAVE CALL BACK FUNC");
+	 Log_String(0,1,"IN SINE WAVE CALL BACK FUNC");
      sine_wave();
 
 

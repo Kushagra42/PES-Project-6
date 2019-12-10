@@ -123,7 +123,7 @@ BUFFER_STATUS Add_Element_To_Buffer(Buffer_Parameters *Buffer_Ptr, uint32_t Valu
 			RED_LED_OFF();
 
 			Buffer_Ptr->Buffer_Count=0;
-			Log_String("BUFFER S FULL INTERNAL");
+			Log_String(0,1,"BUFFER S FULL INTERNAL");
 
 			return BUFFER_IS_FULL;
 		}
@@ -137,7 +137,7 @@ BUFFER_STATUS Add_Element_To_Buffer(Buffer_Parameters *Buffer_Ptr, uint32_t Valu
 
 			if(Buffer_Ptr->Buffer_Tail==Buffer_Ptr->Buffer_Base_Pointer)
 			{
-				Log_String("\n\rHEAD=VALUE\n\r");
+				Log_String(0,1,"\n\rHEAD=VALUE\n\r");
 
 				*(Buffer_Ptr->Buffer_Tail)=Value;
 
@@ -155,8 +155,8 @@ BUFFER_STATUS Add_Element_To_Buffer(Buffer_Parameters *Buffer_Ptr, uint32_t Valu
 		}
 		Buffer_Ptr->Buffer_Count++;
 		PRINTF("\n\rcount %d\n\r",Buffer_Ptr->Buffer_Count);
-		Log_String("rcount");
-		Log_Data(Buffer_Ptr->Buffer_Count);
+		Log_String(0,1,"rcount");
+		Log_Data(0,1,Buffer_Ptr->Buffer_Count);
 
     	PRINTF("CIR BUF VAL final:%u\r\n",*(Buffer_Ptr->Buffer_Tail));
 

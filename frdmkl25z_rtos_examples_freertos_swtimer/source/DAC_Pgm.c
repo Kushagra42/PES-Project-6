@@ -109,8 +109,8 @@ void sine_wave()
 
 				DAC_SetBufferValue(DEMO_DAC_BASEADDR, 0U, DAC_Buffer[i]);
    	   	        PRINTF("\r\n\r\nDAC Value: %d\r\n", DAC_Buffer[i]);
-   	   	        Log_String("DAC Value");
-   	   	  		Log_Data(DAC_Buffer[i]);
+   	   	        Log_String(0,1,"DAC Value");
+   	   	  		Log_Data(0,1,DAC_Buffer[i]);
 	        	i++;
 	        	DAC_Equations();
 	        	 GREEN_LED_ON();
@@ -133,8 +133,8 @@ void DAC_Equations()
 	        /* Convert ADC value to a voltage based on 3.3V VREFH on board */
 	        voltRead = (float)(DAC_Buffer[i]) * (VREF_BRD / SE_12BIT);
 	        PRINTF("\r\nADC Voltage: %0.3f Volts\r\n", voltRead);
-	        Log_String("ADC Voltage");
-	         Log_Data(voltRead);
+	        Log_String(0,1,"ADC Voltage");
+	         Log_Data(0,1,voltRead);
 	        //Log_String(Time_Stamp,0,1,"ADC Voltage");
 	        //Log_Data(Time_Stamp,0,1,voltRead);
 
