@@ -1,0 +1,4 @@
+Volt_Equations.c:9:10:Max_Volt	16	static
+Volt_Equations.c:25:10:Min_Volt	16	static
+Volt_Equations.c:40:7:Avg_Volt	224	static
+Volt_Equations.c:53:7:Std_Dev	32	static

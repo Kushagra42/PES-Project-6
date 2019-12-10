@@ -1,0 +1,7 @@
+core_cm0plus.h:745:22:NVIC_EnableIRQ	16	static
+fsl_common.h:212:20:EnableIRQ	16	static
+Main.c:36:5:main	16	static
+Main.c:88:13:DAC_task	16	static
+Main.c:99:13:ADC_task	16	static
+Main.c:110:13:ADC_Buffer_task	16	static
+Main.c:122:13:VTG_Parameters_task	16	static

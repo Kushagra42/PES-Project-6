@@ -1,0 +1,7 @@
+core_cm0plus.h:745:22:NVIC_EnableIRQ	16	static
+core_cm0plus.h:804:22:NVIC_SetPriority	24	static
+Delay_Function.c:22:6:Delay_Time	24	static
+Delay_Function.c:31:9:TimeOut_Counter	24	static
+Delay_Function.c:43:6:Init_Systick	8	static
+Delay_Function.c:57:10:Current_Timer	12	static
+Delay_Function.c:62:6:Time_Stamp	64	static

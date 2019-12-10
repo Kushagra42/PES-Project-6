@@ -1,0 +1,7 @@
+CIRCULAR_BUFFER.c:28:15:Init_Buffer	16	static
+CIRCULAR_BUFFER.c:55:15:Check_Buffer	16	static
+CIRCULAR_BUFFER.c:98:15:Add_Element_To_Buffer	16	static
+CIRCULAR_BUFFER.c:169:15:Add_String_To_Buffer	40	static
+CIRCULAR_BUFFER.c:201:15:Remove_Element_From_Buffer	16	static
+CIRCULAR_BUFFER.c:250:15:Destroy_Buffer	16	static
+CIRCULAR_BUFFER.c:275:15:Expand_Buffer	16	static

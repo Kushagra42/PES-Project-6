@@ -1,0 +1,6 @@
+fsl_dma.h:558:20:DMA_StartTransfer	16	static
+fsl_dmamux.h:98:20:DMAMUX_EnableChannel	16	static
+fsl_dmamux.h:128:20:DMAMUX_SetSource	24	static
+DMA_Transfer.c:27:6:DMA_Callback	16	static
+DMA_Transfer.c:33:6:Initialize_DSP_Buffer	8	static
+DMA_Transfer.c:41:6:DMA_Pgm	48	static
